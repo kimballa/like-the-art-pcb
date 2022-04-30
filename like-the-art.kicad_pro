@@ -344,6 +344,14 @@
     [
       "df749f4e-5f36-453c-9525-da2fb2bb9017",
       "Quad LED Driver #3"
+    ],
+    [
+      "78953969-af0d-405f-890f-4b95f6a7bce0",
+      "I2C Communication"
+    ],
+    [
+      "8cfa783d-750c-48c3-9f0f-4b536f65e275",
+      "12V Regulator"
     ]
   ],
   "text_variables": {}
