@@ -323,35 +323,19 @@
     ],
     [
       "e5533935-513b-40ea-969d-0b26d3cce6c4",
-      "5V Regulator"
+      "5V0 (1A) Regulator"
     ],
     [
       "6c463b66-7d6a-4cf9-b3f0-191f3a7738ed",
       "Button Inputs"
     ],
     [
-      "2e9b2e1d-0909-4108-abe7-b0cfbf9b8342",
-      "Quad LED Driver #0"
-    ],
-    [
-      "e55bf871-22d7-49f9-b584-78effea5215d",
-      "Quad LED Driver #1"
-    ],
-    [
-      "861187c8-dd97-4a6b-ba0b-01814d331a9a",
-      "Quad LED Driver #2"
-    ],
-    [
-      "df749f4e-5f36-453c-9525-da2fb2bb9017",
-      "Quad LED Driver #3"
+      "5aae325f-8866-4428-9c3a-cbc77f646a49",
+      "LED Signal Outputs"
     ],
     [
       "78953969-af0d-405f-890f-4b95f6a7bce0",
       "I2C Communication"
-    ],
-    [
-      "8cfa783d-750c-48c3-9f0f-4b536f65e275",
-      "12V Regulator"
     ]
   ],
   "text_variables": {}

@@ -670,11 +670,6 @@
     (uuid fdcaea8c-b695-4fc3-8c02-2f7ad64c3fcd)
   )
 
-  (text "TODO Calculate appropriate\nI2C bus pullup R values"
-    (at 36.83 136.525 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 1865228d-c433-40c0-95c7-f9781931dea4)
-  )
   (text "MOSFET bank 1\n\n" (at 120.015 83.82 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1d88d69a-6fa4-40b0-a87d-a535dc6bae24)
@@ -690,11 +685,6 @@
   (text "3V3 logic through I2C bus" (at 32.385 17.145 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 71ea8f5b-206e-4c4f-b295-8681574bc235)
-  )
-  (text "NOTE all button inputs\nneed 100K pull-up resistors"
-    (at 149.86 150.495 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 89709bf8-7895-453c-868b-426a8bc8cc7c)
   )
 
   (label "SCL" (at 90.805 40.64 0)
