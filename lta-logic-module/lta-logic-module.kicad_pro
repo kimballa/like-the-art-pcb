@@ -469,6 +469,10 @@
     [
       "6c463b66-7d6a-4cf9-b3f0-191f3a7738ed",
       "Button Inputs"
+    ],
+    [
+      "b07b5a53-95e4-46c7-beb1-5ef197e6319a",
+      "Light-level sensor"
     ]
   ],
   "text_variables": {}
