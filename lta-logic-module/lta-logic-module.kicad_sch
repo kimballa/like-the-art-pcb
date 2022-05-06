@@ -1198,6 +1198,10 @@
     (uuid ff6968c3-970c-4644-8016-9760541d4615)
   )
 
+  (text "TODO add tracepoints and 0R's where needed." (at 160.655 60.325 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 1acba964-ff06-42d0-a7f9-aaca589c96dd)
+  )
   (text "ext_int_5\n" (at 104.775 84.455 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1b2dc938-1354-4596-bd28-564fe8b12bca)
@@ -1228,6 +1232,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6f457ce3-3e79-45bf-8093-e3ae8b14303d)
   )
+  (text "Use M2 screws for mounting holes " (at 132.715 165.1 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 992557e4-e8ca-4faf-89e3-c4933f7e724b)
+  )
   (text "TODO Verify we can interrupt on\nA4 & D11 edges" (at 48.26 118.11 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c5f1ba24-ccb8-4589-8cf1-8585e132b5e6)
@@ -1240,11 +1248,6 @@
   (text "PWM output (TCC0, 6KHz)" (at 107.315 92.075 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e3647ab5-8fb8-41ab-87cd-81a9a61746b7)
-  )
-  (text "TODO For all connectors J1..J5\nreplace pin header with appropriate\nfootprint"
-    (at 48.26 135.89 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid f3cdfce0-6f24-437e-9ed9-e80d43aadf5e)
   )
 
   (label "BUTTON_INT_L" (at 109.855 89.535 180)
@@ -2651,14 +2654,14 @@
     (path "/b22c9ebe-66d4-4188-b4db-cbd1721541a8"
       (reference "J1") (unit 1) (value "Molex-MicroFit_43650-0218") (footprint "Aaron_THT:Molex-Microfit-43650-0218")
     )
+    (path "/6c463b66-7d6a-4cf9-b3f0-191f3a7738ed/73eb0bc7-e366-4abc-ad37-2f48672e6367"
+      (reference "J2") (unit 1) (value "Molex-MicroLatch-53253-1270") (footprint "Aaron_THT:Molex-MicroLatch-53253-1270")
+    )
     (path "/5aae325f-8866-4428-9c3a-cbc77f646a49/4799fb37-e41f-4613-89ed-b23d12b6c343"
       (reference "J3") (unit 1) (value "Molex-MicroLatch-53253-1270") (footprint "Aaron_THT:Molex-MicroLatch-53253-1270")
     )
     (path "/5aae325f-8866-4428-9c3a-cbc77f646a49/f176bd72-6f10-4297-97cf-05a5643d210f"
       (reference "J4") (unit 1) (value "Molex-MicroLatch-53253-1270") (footprint "Aaron_THT:Molex-MicroLatch-53253-1270")
-    )
-    (path "/6c463b66-7d6a-4cf9-b3f0-191f3a7738ed/73eb0bc7-e366-4abc-ad37-2f48672e6367"
-      (reference "J5") (unit 1) (value "Molex-MicroLatch-53253-1270") (footprint "Aaron_THT:Molex-MicroLatch-53253-1270")
     )
     (path "/b07b5a53-95e4-46c7-beb1-5ef197e6319a/cbd8b785-0c8e-4509-ba77-b2205bc85c2c"
       (reference "JP1") (unit 1) (value "Jumper_3_Open") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")

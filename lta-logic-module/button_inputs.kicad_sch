@@ -1708,7 +1708,7 @@
   (symbol (lib_id "Aaron-Connectors:Molex-MicroLatch-53253-1270") (at 31.75 69.215 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 73eb0bc7-e366-4abc-ad37-2f48672e6367)
-    (property "Reference" "J5" (id 0) (at 23.495 64.77 0))
+    (property "Reference" "J2" (id 0) (at 23.495 64.77 0))
     (property "Value" "" (id 1) (at 15.875 83.82 90)
       (effects (font (size 1.524 1.524)))
     )
