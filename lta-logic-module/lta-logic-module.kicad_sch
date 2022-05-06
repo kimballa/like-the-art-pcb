@@ -854,7 +854,7 @@
   (no_connect (at 64.135 66.675) (uuid 7014af3e-1a04-4575-bc3a-4225a6be4bff))
   (no_connect (at 64.135 61.595) (uuid 7014af3e-1a04-4575-bc3a-4225a6be4c00))
   (no_connect (at 27.94 27.94) (uuid 7a1fd515-e92f-4560-bc53-7b9d9878050e))
-  (no_connect (at 27.94 30.48) (uuid 7a1fd515-e92f-4560-bc53-7b9d9878050e))
+  (no_connect (at 27.94 30.48) (uuid 7a1fd515-e92f-4560-bc53-7b9d9878050f))
   (no_connect (at 93.345 86.995) (uuid a48a9e78-061f-403c-9448-3d0573ff1af8))
 
   (wire (pts (xy 125.095 76.2) (xy 125.095 75.565))
@@ -2772,16 +2772,16 @@
       (reference "U1") (unit 1) (value "Feather_M4_Express") (footprint "aaron-imported-parts:Arduino_Feather_M4_Express_PinHeaders")
     )
     (path "/e5533935-513b-40ea-969d-0b26d3cce6c4/c0642d1e-0e0f-4f78-a50a-743671accc05"
-      (reference "U2") (unit 1) (value "LM2595T-5") (footprint "Package_TO_SOT_THT:TO-220-5_P3.4x3.7mm_StaggerOdd_Lead3.8mm_Vertical")
+      (reference "U2") (unit 1) (value "LM2595T-5") (footprint "Aaron_THT:TO-220-5_P3.4x3.7mm_StaggerOdd_Lead3.8mm_Vertical-SilkFix")
     )
     (path "/78953969-af0d-405f-890f-4b95f6a7bce0/97045c46-f678-492e-acdd-9fd751a9d17a"
-      (reference "U3") (unit 1) (value "PCF8574") (footprint "Aaron_TI_Parts:TI_SOIC_DW0016A")
+      (reference "U3") (unit 1) (value "PCF8574DW") (footprint "Aaron_TI_Parts:TI_SOIC_DW0016A")
     )
     (path "/78953969-af0d-405f-890f-4b95f6a7bce0/8690dea6-b4e9-4dfc-abe5-0bd60a9dc276"
-      (reference "U4") (unit 1) (value "PCF8574") (footprint "Aaron_TI_Parts:TI_SOIC_DW0016A")
+      (reference "U4") (unit 1) (value "PCF8574DW") (footprint "Aaron_TI_Parts:TI_SOIC_DW0016A")
     )
     (path "/78953969-af0d-405f-890f-4b95f6a7bce0/fbaa75ca-fede-4af2-918f-ae86b86d8cca"
-      (reference "U5") (unit 1) (value "PCF8574") (footprint "Aaron_TI_Parts:TI_SOIC_DW0016A")
+      (reference "U5") (unit 1) (value "PCF8574DW") (footprint "Aaron_TI_Parts:TI_SOIC_DW0016A")
     )
     (path "/5aae325f-8866-4428-9c3a-cbc77f646a49/39f6fae4-2f28-4f2b-a7be-e8f92ea92e26"
       (reference "U6") (unit 1) (value "SN74LVC00AD") (footprint "Aaron_TI_Parts:TI_SOIC_D_R-PDSO-G14")
@@ -2790,7 +2790,7 @@
       (reference "U7") (unit 1) (value "SN74LVC00AD") (footprint "Aaron_TI_Parts:TI_SOIC_D_R-PDSO-G14")
     )
     (path "/5aae325f-8866-4428-9c3a-cbc77f646a49/979ab2c3-d207-4361-9711-c3ca36c23180"
-      (reference "U8") (unit 1) (value "SN74LVC244ADW") (footprint "Aaron_TI_Parts:TI_SOIC_DW0020A")
+      (reference "U8") (unit 1) (value "SN74LVC244ADWR") (footprint "Aaron_TI_Parts:TI_SOIC_DW0020A")
     )
     (path "/5aae325f-8866-4428-9c3a-cbc77f646a49/ea6d1ccc-03be-418f-bb2f-5b7268de450a"
       (reference "U9") (unit 1) (value "SN74LVC00AD") (footprint "Aaron_TI_Parts:TI_SOIC_D_R-PDSO-G14")
