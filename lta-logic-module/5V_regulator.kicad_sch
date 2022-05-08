@@ -631,6 +631,10 @@
     (uuid faf2001e-5842-4d75-af27-93089dc60fe1)
   )
 
+  (text "Regulator" (at 187.96 190.5 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 064e4b25-ba12-49d9-ae63-6286f2a6638d)
+  )
   (text "MPN: EST227M035AG4AA\n35V low-ESR aluminum\nI_RMS > 250mA\n"
     (at 65.405 76.835 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -660,6 +664,14 @@
     (at 163.1525 81.2483 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e9a9c9f6-bd1e-486b-8ce4-508a2e9bad1f)
+  )
+  (text "${RELEASE_DATE}" (at 206.375 194.31 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid ea26215a-2b3b-4d13-8cac-15007c860e32)
+  )
+  (text "${REV}" (at 268.605 194.31 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid eb0a170e-cc21-4cea-8ed2-03873b8da4d2)
   )
   (text "Estimated power budget\n----------------\n\nMCU --  25.0mA\nButton LEDs -- 180.0mA\nOnboard LED -- 10.0mA\n74LVC244A -- 0.1mA\n4x 74LVC00A -- 0.2mA\n2x 74LVC14A -- 0.1mA\n3x PCF8574 -- 0.3mA\nPull-ups -- 0.1mA\n16x FET driver inputs -- 25.0mA\n-------\n241mA"
     (at 267.97 48.26 0)

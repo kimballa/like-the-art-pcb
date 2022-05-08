@@ -1559,6 +1559,10 @@
     (uuid ffbce7be-59fc-4a22-8d33-2cc2b1dbe1b7)
   )
 
+  (text "${RELEASE_DATE}" (at 207.645 193.675 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 199348f1-faa3-4ced-9c3f-8f5d03c10f16)
+  )
   (text "Connector to power module" (at 250.8001 17.7314 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 39d535b4-b8a8-478c-b1eb-945dbf350c86)
@@ -1584,6 +1588,10 @@
   (text "3V3 nominal" (at 29.845 23.495 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 878e2782-3573-4b32-927e-b921e328aa46)
+  )
+  (text "${REV}" (at 269.875 193.675 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid dccb2d8e-b87a-4503-97df-eab88e834b10)
   )
 
   (label "led3" (at 32.385 58.42 180)

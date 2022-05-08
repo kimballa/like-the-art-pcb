@@ -807,6 +807,10 @@
     (uuid fe0266ef-89b5-400a-b02b-92eadb879034)
   )
 
+  (text "${REV}" (at 269.24 194.31 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 18079448-89cc-4cf2-8eda-570920731b44)
+  )
   (text "\"DARK\" signal goes to logic 1 when\nphototransitor does not see light"
     (at 137.795 55.245 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -820,9 +824,17 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7c1dfd89-be54-4698-a5c0-ee45e8b6d0ed)
   )
+  (text "Light-level sensor" (at 187.325 190.5 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 9efde0ab-5d85-457e-9da8-a7ce2c189019)
+  )
   (text "Light/dark sensor for system on/off" (at 187.325 176.53 0)
     (effects (font (size 2.54 2.54)) (justify left bottom))
     (uuid f2220530-7162-41ed-9300-b99b27110674)
+  )
+  (text "${RELEASE_DATE}" (at 207.01 194.31 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid f305fdb1-bdae-4ecf-b278-6a82a8c3942a)
   )
 
   (label "DARK" (at 145.415 187.325 0)
