@@ -1,6 +1,6 @@
 (kicad_sch (version 20211123) (generator eeschema)
 
-  (uuid 5aed22cd-be57-4835-8166-6b2151d55ce5)
+  (uuid fccdab44-e254-4694-bc68-cb26fd6267c3)
 
   (paper "A4")
 
@@ -1162,9 +1162,21 @@
     (uuid ff926c14-e71f-4e1a-b90a-37c4790d615c)
   )
 
+  (text "Expansion protoboard" (at 186.69 190.5 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 5b6ad0d9-cac2-4f20-8a3f-82be30eba3de)
+  )
+  (text "${REV}\n" (at 268.605 194.31 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 699c6881-6c10-413e-a49f-21030053d9b6)
+  )
   (text "Flexible expansion protoboard" (at 186.69 174.625 0)
     (effects (font (size 2.54 2.54)) (justify left bottom))
     (uuid 7a58ab8f-a30d-4c4f-bfa0-f19794286582)
+  )
+  (text "${REV_DATE}" (at 207.01 194.31 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid f3d105da-d392-413d-a8aa-20740a7549f8)
   )
 
   (hierarchical_label "Vcc1" (shape input) (at 19.05 19.685 90)

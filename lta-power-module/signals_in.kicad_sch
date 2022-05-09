@@ -1,6 +1,6 @@
 (kicad_sch (version 20211123) (generator eeschema)
 
-  (uuid 0b4eb74f-36f5-4965-9cce-ffa14b399ce4)
+  (uuid 7d0d7839-dfaf-4221-b53b-bc92c4d2ba30)
 
   (paper "A4")
 
@@ -2334,10 +2334,18 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0cea315d-1b9e-44f5-bc04-e1fda3d4762a)
   )
+  (text "${REV}\n" (at 268.605 194.31 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 2a1da847-a72c-47ad-b333-08cc67b90190)
+  )
   (text "GND wires deliberately N/C;\nuse star ground through battery\nrather than create ground loop"
     (at 18.415 150.495 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4545dae6-0d24-418e-b405-c9b47f72c373)
+  )
+  (text "Signal inverter and 3V3-to-12V0 voltage shifter" (at 180.34 175.895 0)
+    (effects (font (size 2.54 2.54)) (justify left bottom))
+    (uuid 46cfcf50-c31a-4cb9-b033-bd664f5c462e)
   )
   (text "12V from bank 0 regulator" (at 33.02 20.955 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -2350,6 +2358,14 @@
   (text "5V0 from onboard regulator" (at 33.02 24.13 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ae413454-1b14-4eae-8266-84b5f819a04a)
+  )
+  (text "Signal input processing from logic module" (at 186.69 190.5 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid bede897e-7ce0-4946-93f5-1591e567f288)
+  )
+  (text "${REV_DATE}" (at 207.01 194.31 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid dc11cb9f-b91e-424f-b462-9922689970d4)
   )
 
   (label "out12" (at 203.835 96.52 270)

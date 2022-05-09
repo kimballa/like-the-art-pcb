@@ -225,7 +225,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "unannotated": "error",
@@ -236,7 +236,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "lta-power-syms"
+    ]
   },
   "meta": {
     "filename": "lta-power-module.kicad_pro",
@@ -326,13 +328,16 @@
       "5V Regulator"
     ],
     [
-      "d1d0255d-b59a-46e1-971a-bc97bb01bdfd",
-      "Protoboard"
-    ],
-    [
       "a46e5140-5a8f-4597-8811-b75cb296a529",
       "Signal Input Processing"
+    ],
+    [
+      "d1d0255d-b59a-46e1-971a-bc97bb01bdfd",
+      "Protoboard"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "REV": "1.0",
+    "REV_DATE": "2022-MM-DD"
+  }
 }
