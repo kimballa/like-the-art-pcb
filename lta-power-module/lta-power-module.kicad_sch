@@ -2904,52 +2904,52 @@
       (reference "L1") (unit 1) (value "150u") (footprint "Aaron_THT:L_Radial_D13.5mm_P7.50mm")
     )
     (path "/00ec6328-2f74-4882-b4d0-703c85483fe2"
-      (reference "Q1") (unit 1) (value "Dual_MOSFET_Switch_Module") (footprint "")
+      (reference "Q1") (unit 1) (value "Dual_MOSFET_Switch_Module") (footprint "lta-power-footprints:Dual_MOSFET_Driver")
     )
     (path "/675eb9bc-7999-489e-b8e7-2d842aa6c599"
-      (reference "Q2") (unit 1) (value "Dual_MOSFET_Switch_Module") (footprint "")
+      (reference "Q2") (unit 1) (value "Dual_MOSFET_Switch_Module") (footprint "lta-power-footprints:Dual_MOSFET_Driver")
     )
     (path "/2669c1d8-974d-4b64-bbed-8664a0d37aa4"
-      (reference "Q3") (unit 1) (value "Dual_MOSFET_Switch_Module") (footprint "")
+      (reference "Q3") (unit 1) (value "Dual_MOSFET_Switch_Module") (footprint "lta-power-footprints:Dual_MOSFET_Driver")
     )
     (path "/f395d185-8246-4d4b-be1b-56669f046226"
-      (reference "Q4") (unit 1) (value "Dual_MOSFET_Switch_Module") (footprint "")
+      (reference "Q4") (unit 1) (value "Dual_MOSFET_Switch_Module") (footprint "lta-power-footprints:Dual_MOSFET_Driver")
     )
     (path "/da507b9d-19c8-4d42-ae01-0b8e5d1623a9"
-      (reference "Q5") (unit 1) (value "Dual_MOSFET_Switch_Module") (footprint "")
+      (reference "Q5") (unit 1) (value "Dual_MOSFET_Switch_Module") (footprint "lta-power-footprints:Dual_MOSFET_Driver")
     )
     (path "/6db5c75a-f537-492e-8d91-3793c29949f3"
-      (reference "Q6") (unit 1) (value "Dual_MOSFET_Switch_Module") (footprint "")
+      (reference "Q6") (unit 1) (value "Dual_MOSFET_Switch_Module") (footprint "lta-power-footprints:Dual_MOSFET_Driver")
     )
     (path "/bd1331bd-f162-4bc3-9104-9db077f719f5"
-      (reference "Q7") (unit 1) (value "Dual_MOSFET_Switch_Module") (footprint "")
+      (reference "Q7") (unit 1) (value "Dual_MOSFET_Switch_Module") (footprint "lta-power-footprints:Dual_MOSFET_Driver")
     )
     (path "/2f17e469-43c7-4835-9b5d-366ba7249487"
-      (reference "Q8") (unit 1) (value "Dual_MOSFET_Switch_Module") (footprint "")
+      (reference "Q8") (unit 1) (value "Dual_MOSFET_Switch_Module") (footprint "lta-power-footprints:Dual_MOSFET_Driver")
     )
     (path "/3940a59e-04f3-4664-a227-bde195ad00f7"
-      (reference "Q9") (unit 1) (value "Dual_MOSFET_Switch_Module") (footprint "")
+      (reference "Q9") (unit 1) (value "Dual_MOSFET_Switch_Module") (footprint "lta-power-footprints:Dual_MOSFET_Driver")
     )
     (path "/ae4cf8b8-43cc-4de5-af6d-7dd4d7bbed2d"
-      (reference "Q10") (unit 1) (value "Dual_MOSFET_Switch_Module") (footprint "")
+      (reference "Q10") (unit 1) (value "Dual_MOSFET_Switch_Module") (footprint "lta-power-footprints:Dual_MOSFET_Driver")
     )
     (path "/4c61a352-d0ee-4bd1-9466-bf666b12cfdf"
-      (reference "Q11") (unit 1) (value "Dual_MOSFET_Switch_Module") (footprint "")
+      (reference "Q11") (unit 1) (value "Dual_MOSFET_Switch_Module") (footprint "lta-power-footprints:Dual_MOSFET_Driver")
     )
     (path "/ce5ad6ca-6434-4536-bc42-883ea3690d09"
-      (reference "Q12") (unit 1) (value "Dual_MOSFET_Switch_Module") (footprint "")
+      (reference "Q12") (unit 1) (value "Dual_MOSFET_Switch_Module") (footprint "lta-power-footprints:Dual_MOSFET_Driver")
     )
     (path "/109fbcd9-a3ab-4bcd-b672-e7d1dba64649"
-      (reference "Q13") (unit 1) (value "Dual_MOSFET_Switch_Module") (footprint "")
+      (reference "Q13") (unit 1) (value "Dual_MOSFET_Switch_Module") (footprint "lta-power-footprints:Dual_MOSFET_Driver")
     )
     (path "/e02a303e-8009-4119-9ca8-873e9ec6b6d2"
-      (reference "Q14") (unit 1) (value "Dual_MOSFET_Switch_Module") (footprint "")
+      (reference "Q14") (unit 1) (value "Dual_MOSFET_Switch_Module") (footprint "lta-power-footprints:Dual_MOSFET_Driver")
     )
     (path "/93f45afe-fb66-4e97-b334-63b77ce34b11"
-      (reference "Q15") (unit 1) (value "Dual_MOSFET_Switch_Module") (footprint "")
+      (reference "Q15") (unit 1) (value "Dual_MOSFET_Switch_Module") (footprint "lta-power-footprints:Dual_MOSFET_Driver")
     )
     (path "/46b0c902-d025-4fa2-956a-2c6efde95e76"
-      (reference "Q16") (unit 1) (value "Dual_MOSFET_Switch_Module") (footprint "")
+      (reference "Q16") (unit 1) (value "Dual_MOSFET_Switch_Module") (footprint "lta-power-footprints:Dual_MOSFET_Driver")
     )
     (path "/678791a0-08d5-4545-b02a-81ec08aeeba9"
       (reference "R1") (unit 1) (value "1K, 1/4W") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
