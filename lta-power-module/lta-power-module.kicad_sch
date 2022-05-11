@@ -823,6 +823,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 230c985e-c2c4-4d0d-b905-de6bbfa89510)
   )
+  (text "TODO:\n- Conform shape to polycase\n- Add several mounting holes (10x?)\n- Fix DIYMORE step down symbol\n- Double-check all big-block footprints"
+    (at 95.8439 41.82 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 24d130e7-ec18-4440-9b47-358abc60e888)
+  )
   (text "From terminal block 0" (at 63.5 89.535 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 374ff5c0-1f16-41ed-8660-856472760ea8)
@@ -947,6 +952,12 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "MPN" "532530270" (id 5) (at 84.455 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "SPN" "WM19004-ND" (id 6) (at 84.455 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier" "DigiKey" (id 7) (at 84.455 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid fb813e87-1e64-43e6-ae3e-8c7e1233f1ea))
@@ -1355,6 +1366,12 @@
     (property "MPN" "CF14JT1K00" (id 6) (at 112.395 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "SPN" "CF14JT1K00CT-ND" (id 7) (at 112.395 105.41 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier" "DigiKey" (id 8) (at 112.395 105.41 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid b7078d44-b7eb-4f03-81a5-35fede83fe7a))
     (pin "2" (uuid 9a983dfd-e27d-4ca4-8faf-a71eff312248))
   )
@@ -1435,6 +1452,12 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "MPN" "532530270" (id 5) (at 84.455 120.015 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "SPN" "WM19004-ND" (id 6) (at 84.455 120.015 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier" "DigiKey" (id 7) (at 84.455 120.015 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid ed69280d-dbf4-4c0c-9d87-19806866c151))
@@ -1555,6 +1578,12 @@
     (property "Comment" "Vf=2.0V I_test=20mA red LED 5mm THT" (id 6) (at 112.395 114.935 90)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "SPN" "C5SMF-RJF-CT0W0BB1-ND" (id 7) (at 112.395 114.935 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier" "DigiKey" (id 8) (at 112.395 114.935 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 3e6e63e1-f80e-447a-adac-dc9f7b63a248))
     (pin "2" (uuid ade55bc3-2943-4bb0-b92a-3dcdda9fcf6a))
   )
@@ -1645,6 +1674,12 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Comment" "Vf=2.0V I_test=20mA red LED 5mm THT" (id 6) (at 134.62 114.935 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "SPN" "C5SMF-RJF-CT0W0BB1-ND" (id 7) (at 134.62 114.935 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier" "DigiKey" (id 8) (at 134.62 114.935 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid e785ba4f-56ad-42e6-8d60-f12616c7f626))
@@ -1952,6 +1987,12 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "MPN" "CF14JT1K00" (id 6) (at 134.62 105.41 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "SPN" "CF14JT1K00CT-ND" (id 7) (at 134.62 105.41 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier" "DigiKey" (id 8) (at 134.62 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 283f9916-32c2-4824-a898-0628eb694da6))
@@ -2275,7 +2316,7 @@
       (reference "J16") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1mm_PTH_No_Silk")
     )
     (path "/d1d0255d-b59a-46e1-971a-bc97bb01bdfd/2ac731a7-e786-4657-9497-a055ab4ce2c8"
-      (reference "J17") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1.6mm_PTH_No_Silk")
+      (reference "J17") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1mm_PTH_No_Silk")
     )
     (path "/d1d0255d-b59a-46e1-971a-bc97bb01bdfd/3f4dd513-3148-46dd-aee0-debf6f6c13ff"
       (reference "J18") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1.6mm_PTH_No_Silk")
@@ -2314,13 +2355,7 @@
       (reference "J30") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1mm_PTH_No_Silk")
     )
     (path "/d1d0255d-b59a-46e1-971a-bc97bb01bdfd/2f684816-87d1-4120-9934-72adb87bfc8e"
-      (reference "J31") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1.6mm_PTH_No_Silk")
-    )
-    (path "/d1d0255d-b59a-46e1-971a-bc97bb01bdfd/63beb7f3-242e-411b-b726-96d275fb2c49"
-      (reference "J32") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1.6mm_PTH_No_Silk")
-    )
-    (path "/d1d0255d-b59a-46e1-971a-bc97bb01bdfd/7657d973-dba4-48d4-9c33-a7464cbcff57"
-      (reference "J33") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1mm_PTH_No_Silk")
+      (reference "J31") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1mm_PTH_No_Silk")
     )
     (path "/d1d0255d-b59a-46e1-971a-bc97bb01bdfd/ddbdee27-1375-4814-817b-8d2fd540f2b9"
       (reference "J34") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1mm_PTH_No_Silk")
@@ -2353,7 +2388,7 @@
       (reference "J44") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1mm_PTH_No_Silk")
     )
     (path "/d1d0255d-b59a-46e1-971a-bc97bb01bdfd/5c28033f-0ebb-47ac-b11d-db329db91049"
-      (reference "J45") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1.6mm_PTH_No_Silk")
+      (reference "J45") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1mm_PTH_No_Silk")
     )
     (path "/d1d0255d-b59a-46e1-971a-bc97bb01bdfd/7d87dd70-8182-420d-9efe-61b4d4180779"
       (reference "J46") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1.6mm_PTH_No_Silk")
@@ -2392,7 +2427,7 @@
       (reference "J58") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1mm_PTH_No_Silk")
     )
     (path "/d1d0255d-b59a-46e1-971a-bc97bb01bdfd/c26ca0f8-ecf7-4af8-9eeb-9cc90366027a"
-      (reference "J59") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1.6mm_PTH_No_Silk")
+      (reference "J59") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1mm_PTH_No_Silk")
     )
     (path "/d1d0255d-b59a-46e1-971a-bc97bb01bdfd/a3a95ef0-7738-4fd9-baa1-b8e23df35faa"
       (reference "J60") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1.6mm_PTH_No_Silk")
@@ -2422,7 +2457,7 @@
       (reference "J68") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1mm_PTH_No_Silk")
     )
     (path "/d1d0255d-b59a-46e1-971a-bc97bb01bdfd/ea9d9258-a265-4d76-aeb9-4d3e0d647c85"
-      (reference "J69") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1.6mm_PTH_No_Silk")
+      (reference "J69") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1mm_PTH_No_Silk")
     )
     (path "/d1d0255d-b59a-46e1-971a-bc97bb01bdfd/06c2b4f2-5c85-449a-92cc-8a3659fef89a"
       (reference "J70") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1.6mm_PTH_No_Silk")
@@ -2461,13 +2496,7 @@
       (reference "J82") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1mm_PTH_No_Silk")
     )
     (path "/d1d0255d-b59a-46e1-971a-bc97bb01bdfd/515e2af0-d794-4b41-93a1-ae760c45c2b3"
-      (reference "J83") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1.6mm_PTH_No_Silk")
-    )
-    (path "/d1d0255d-b59a-46e1-971a-bc97bb01bdfd/80cfeffa-8ac9-4bef-8219-e9df07467928"
-      (reference "J84") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1.6mm_PTH_No_Silk")
-    )
-    (path "/d1d0255d-b59a-46e1-971a-bc97bb01bdfd/b9c9a851-bcbd-41f3-9f8e-1b04614eb1f2"
-      (reference "J85") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1mm_PTH_No_Silk")
+      (reference "J83") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1mm_PTH_No_Silk")
     )
     (path "/d1d0255d-b59a-46e1-971a-bc97bb01bdfd/0fbc1c43-a68f-4c8d-9243-2725a30cb950"
       (reference "J86") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1mm_PTH_No_Silk")
@@ -2500,7 +2529,7 @@
       (reference "J96") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1mm_PTH_No_Silk")
     )
     (path "/d1d0255d-b59a-46e1-971a-bc97bb01bdfd/47b398f1-953c-4217-9689-5ec200486daa"
-      (reference "J97") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1.6mm_PTH_No_Silk")
+      (reference "J97") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1mm_PTH_No_Silk")
     )
     (path "/d1d0255d-b59a-46e1-971a-bc97bb01bdfd/7daea472-8732-4f22-8263-a0eb5a56e56c"
       (reference "J98") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1.6mm_PTH_No_Silk")
@@ -2530,7 +2559,7 @@
       (reference "J106") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1mm_PTH_No_Silk")
     )
     (path "/d1d0255d-b59a-46e1-971a-bc97bb01bdfd/e5c1d271-2d78-414f-9f35-6c1b4541ead2"
-      (reference "J107") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1.6mm_PTH_No_Silk")
+      (reference "J107") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1mm_PTH_No_Silk")
     )
     (path "/d1d0255d-b59a-46e1-971a-bc97bb01bdfd/6c799f37-6cd7-43c9-9f3b-e125edad2270"
       (reference "J108") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1.6mm_PTH_No_Silk")
@@ -2569,7 +2598,7 @@
       (reference "J120") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1mm_PTH_No_Silk")
     )
     (path "/d1d0255d-b59a-46e1-971a-bc97bb01bdfd/c16192da-24f9-4238-ace2-f512df514bd6"
-      (reference "J121") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1.6mm_PTH_No_Silk")
+      (reference "J121") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1mm_PTH_No_Silk")
     )
     (path "/d1d0255d-b59a-46e1-971a-bc97bb01bdfd/ec875575-9339-457a-bdc0-c9b7efc9dcd4"
       (reference "J122") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1.6mm_PTH_No_Silk")
@@ -2608,13 +2637,7 @@
       (reference "J134") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1mm_PTH_No_Silk")
     )
     (path "/d1d0255d-b59a-46e1-971a-bc97bb01bdfd/9e814e1e-f48f-41c2-a058-c60648abc4b2"
-      (reference "J135") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1.6mm_PTH_No_Silk")
-    )
-    (path "/d1d0255d-b59a-46e1-971a-bc97bb01bdfd/a436f6c5-9973-409b-b190-e3830ecbf962"
-      (reference "J136") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1.6mm_PTH_No_Silk")
-    )
-    (path "/d1d0255d-b59a-46e1-971a-bc97bb01bdfd/b7404d5e-d9ed-49fd-95c7-a28cc8dcf4bc"
-      (reference "J137") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1mm_PTH_No_Silk")
+      (reference "J135") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1mm_PTH_No_Silk")
     )
     (path "/d1d0255d-b59a-46e1-971a-bc97bb01bdfd/5f6e5a0d-e5a7-4f03-b20a-ff8f0f8e82f2"
       (reference "J138") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1mm_PTH_No_Silk")
@@ -2647,13 +2670,7 @@
       (reference "J148") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1mm_PTH_No_Silk")
     )
     (path "/d1d0255d-b59a-46e1-971a-bc97bb01bdfd/faf0b79b-df84-4c96-ad4a-53427ff7673e"
-      (reference "J149") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1.6mm_PTH_No_Silk")
-    )
-    (path "/d1d0255d-b59a-46e1-971a-bc97bb01bdfd/2f3702dd-24f3-4222-82ce-6469afc4763c"
-      (reference "J150") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1.6mm_PTH_No_Silk")
-    )
-    (path "/d1d0255d-b59a-46e1-971a-bc97bb01bdfd/b07e8264-9a30-45f4-8d7a-acf8f81358b7"
-      (reference "J151") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1mm_PTH_No_Silk")
+      (reference "J149") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1mm_PTH_No_Silk")
     )
     (path "/d1d0255d-b59a-46e1-971a-bc97bb01bdfd/8dd35a19-d9d9-410d-9607-3f6615e9b231"
       (reference "J152") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1mm_PTH_No_Silk")
@@ -2677,7 +2694,7 @@
       (reference "J158") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1mm_PTH_No_Silk")
     )
     (path "/d1d0255d-b59a-46e1-971a-bc97bb01bdfd/565b973a-6709-4f2c-abe2-542865661ae0"
-      (reference "J159") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1.6mm_PTH_No_Silk")
+      (reference "J159") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1mm_PTH_No_Silk")
     )
     (path "/d1d0255d-b59a-46e1-971a-bc97bb01bdfd/8f1e5de9-1250-43f7-ada2-84a583d5eb62"
       (reference "J160") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1.6mm_PTH_No_Silk")
@@ -2716,13 +2733,7 @@
       (reference "J172") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1mm_PTH_No_Silk")
     )
     (path "/d1d0255d-b59a-46e1-971a-bc97bb01bdfd/e46f2bee-febb-4d96-a1ff-f38a1d270567"
-      (reference "J173") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1.6mm_PTH_No_Silk")
-    )
-    (path "/d1d0255d-b59a-46e1-971a-bc97bb01bdfd/330447ca-e682-4e81-8715-c68969bf450c"
-      (reference "J174") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1.6mm_PTH_No_Silk")
-    )
-    (path "/d1d0255d-b59a-46e1-971a-bc97bb01bdfd/ad3f1bcc-039a-409f-9388-a73878ccfaa3"
-      (reference "J175") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1mm_PTH_No_Silk")
+      (reference "J173") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1mm_PTH_No_Silk")
     )
     (path "/d1d0255d-b59a-46e1-971a-bc97bb01bdfd/fc8420dc-57c8-4ea3-a303-ab1f8b9d0379"
       (reference "J176") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1mm_PTH_No_Silk")
@@ -2755,13 +2766,7 @@
       (reference "J186") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1mm_PTH_No_Silk")
     )
     (path "/d1d0255d-b59a-46e1-971a-bc97bb01bdfd/2925cfcc-4359-4244-8487-fdee5bca564b"
-      (reference "J187") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1.6mm_PTH_No_Silk")
-    )
-    (path "/d1d0255d-b59a-46e1-971a-bc97bb01bdfd/829df338-ac07-4d32-9fb6-7523e6089611"
-      (reference "J188") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1.6mm_PTH_No_Silk")
-    )
-    (path "/d1d0255d-b59a-46e1-971a-bc97bb01bdfd/d279f084-0fc0-44e6-84a9-8b1f27c8dc8f"
-      (reference "J189") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1mm_PTH_No_Silk")
+      (reference "J187") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1mm_PTH_No_Silk")
     )
     (path "/d1d0255d-b59a-46e1-971a-bc97bb01bdfd/74fdcb45-a559-4c06-b080-53eac34b7698"
       (reference "J190") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1mm_PTH_No_Silk")
@@ -2794,13 +2799,7 @@
       (reference "J200") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1mm_PTH_No_Silk")
     )
     (path "/d1d0255d-b59a-46e1-971a-bc97bb01bdfd/86329c97-35bf-41da-833e-26b53889d598"
-      (reference "J201") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1.6mm_PTH_No_Silk")
-    )
-    (path "/d1d0255d-b59a-46e1-971a-bc97bb01bdfd/be65b37a-4dbc-4582-a048-b064aab11e21"
-      (reference "J202") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1.6mm_PTH_No_Silk")
-    )
-    (path "/d1d0255d-b59a-46e1-971a-bc97bb01bdfd/7b11e1f5-c33b-48da-84bd-accbc9a47b60"
-      (reference "J203") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1mm_PTH_No_Silk")
+      (reference "J201") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1mm_PTH_No_Silk")
     )
     (path "/d1d0255d-b59a-46e1-971a-bc97bb01bdfd/5a9ff7f4-d50b-4386-9a90-87a59229066f"
       (reference "J204") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1mm_PTH_No_Silk")
@@ -2824,13 +2823,7 @@
       (reference "J210") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1mm_PTH_No_Silk")
     )
     (path "/d1d0255d-b59a-46e1-971a-bc97bb01bdfd/9a44f164-e970-4382-a462-7bf7b03e167f"
-      (reference "J211") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1.6mm_PTH_No_Silk")
-    )
-    (path "/d1d0255d-b59a-46e1-971a-bc97bb01bdfd/fe8e9cc1-7628-44d5-a94e-7f459d35ab44"
-      (reference "J212") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1.6mm_PTH_No_Silk")
-    )
-    (path "/d1d0255d-b59a-46e1-971a-bc97bb01bdfd/ed4ec778-69fe-4d87-8048-cede92a0c963"
-      (reference "J213") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1mm_PTH_No_Silk")
+      (reference "J211") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1mm_PTH_No_Silk")
     )
     (path "/d1d0255d-b59a-46e1-971a-bc97bb01bdfd/cb8c26cf-0084-45f5-bbcb-706f1b610a25"
       (reference "J214") (unit 1) (value "Conn_01x01") (footprint "Aaron_Pads:1mm_PTH_No_Silk")

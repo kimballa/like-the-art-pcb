@@ -403,7 +403,12 @@
     "meta": {
       "version": 2
     },
-    "net_colors": null
+    "net_colors": {
+      "GND": "rgb(2, 0, 255)",
+      "VCC0": "rgb(255, 6, 0)",
+      "VCC1": "rgb(255, 89, 0)",
+      "VDD": "rgb(136, 255, 20)"
+    }
   },
   "pcbnew": {
     "last_paths": {
