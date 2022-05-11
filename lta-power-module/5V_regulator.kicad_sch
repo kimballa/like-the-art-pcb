@@ -1156,7 +1156,7 @@
     (property "MANUFACTURER" "Stackpole" (id 5) (at 177.165 94.615 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "CF18JT330R0" (id 6) (at 177.165 94.615 0)
+    (property "MPN" "CF18JT330R" (id 6) (at 177.165 94.615 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 5a0d6268-6c2c-4b1a-bcc1-33575db26140))
