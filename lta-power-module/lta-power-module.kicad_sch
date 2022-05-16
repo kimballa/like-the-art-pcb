@@ -961,11 +961,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 230c985e-c2c4-4d0d-b905-de6bbfa89510)
   )
-  (text "TODO:\n- Verify we're compliant with all JLC design rules"
-    (at 95.8439 41.82 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 24d130e7-ec18-4440-9b47-358abc60e888)
-  )
   (text "Flying connection from terminal block 0" (at 70.358 85.09 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 374ff5c0-1f16-41ed-8660-856472760ea8)
