@@ -306,8 +306,8 @@
       "meta": {
         "version": 0
       },
-      "model_mode": 0,
-      "workbook_filename": ""
+      "model_mode": 1,
+      "workbook_filename": "photodiode-sim.wbk"
     },
     "page_layout_descr_file": "",
     "plot_directory": "",
