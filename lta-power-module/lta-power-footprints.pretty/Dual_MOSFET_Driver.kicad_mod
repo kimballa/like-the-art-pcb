@@ -14,8 +14,10 @@
   )
   (fp_rect (start -1.778 -1.778) (end 31.7 15.38) (layer "F.SilkS") (width 0.12) (fill none) (tstamp 3993c707-5291-41b6-83c0-d1c09cb3833a))
   (fp_rect (start -3.278 -3.278) (end 33.2 16.88) (layer "F.CrtYd") (width 0.12) (fill none) (tstamp 8a8c373f-9bc3-4cf7-8f41-4802da916698))
-  (pad "" np_thru_hole circle (at 0 13.6398) (size 2.032 2.032) (drill 2.032) (layers F&B.Cu *.Mask "Eco1.User") (tstamp 21492bcd-343a-4b2b-b55a-b4586c11bdeb))
-  (pad "" np_thru_hole circle (at 0 0) (size 2.032 2.032) (drill 2.032) (layers F&B.Cu *.Mask "Eco1.User") (tstamp df3dc9a2-ba40-4c3a-87fe-61cc8e23d71b))
+  (pad "" np_thru_hole circle (at 0 13.6398) (size 2.032 2.032) (drill 2.032) (layers F&B.Cu *.Mask "Eco1.User")
+    (solder_mask_margin 0.254) (tstamp 21492bcd-343a-4b2b-b55a-b4586c11bdeb))
+  (pad "" np_thru_hole circle (at 0 0) (size 2.032 2.032) (drill 2.032) (layers F&B.Cu *.Mask "Eco1.User")
+    (solder_mask_margin 0.254) (tstamp df3dc9a2-ba40-4c3a-87fe-61cc8e23d71b))
   (model "${KIPRJMOD}/3d models/Dual MOSFET Driver.step"
     (offset (xyz 19.125 1.85 3.8))
     (scale (xyz 1 1 1))

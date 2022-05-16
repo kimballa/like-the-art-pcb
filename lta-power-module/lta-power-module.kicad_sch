@@ -961,7 +961,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 230c985e-c2c4-4d0d-b905-de6bbfa89510)
   )
-  (text "TODO:\n- Double-check all big-block footprints" (at 95.8439 41.82 0)
+  (text "TODO:\n- Verify we're compliant with all JLC design rules"
+    (at 95.8439 41.82 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 24d130e7-ec18-4440-9b47-358abc60e888)
   )
