@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 1.1,
+          "height": 2.0,
+          "width": 1.905
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -44,7 +44,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "45_degree_only": false,
+          "45_degree_only": true,
           "min_clearance": 0.508
         }
       },
@@ -123,9 +123,11 @@
         0.2,
         0.25,
         0.5,
+        1.0,
+        1.5,
         2.0,
         2.5,
-        3.0
+        2.999999
       ],
       "via_dimensions": [
         {
@@ -391,8 +393,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 2.5,
-        "via_diameter": 1.27,
-        "via_drill": 1.0,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
         "wire_width": 6.0
       },
       {
