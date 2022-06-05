@@ -1,0 +1,8 @@
+kikit panelize \
+    --layout 'hspace: 3mm; vspace: 3mm; rows: 3; cols: 2' \
+    --tabs 'vwidth: 5mm; hwidth: 5mm' \
+    --cuts 'type: mousebites; drill: 0.6mm; spacing: 0.9mm; prolong: 0.5mm' \
+    --framing 'type: frame; width: 5mm; fillet: 1mm' \
+    --text 'type: simple; voffset: 3mm; text: JLCJLCJLCJLC - ${board_name} - ${rev}' \
+    --post 'copperfill: True; millradius: 1mm' \
+    C:\Users\akimb\Documents\PCB CAD Projects\like-the-art\mosfet-chip\mosfet-chip.kicad_pcb panel.kicad_pcb
