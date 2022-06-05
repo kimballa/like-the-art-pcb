@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": true,
-          "min_clearance": 0.508
+          "min_clearance": 0.381
         }
       },
       "diff_pair_dimensions": [
@@ -477,6 +477,7 @@
     ]
   ],
   "text_variables": {
+    "FET_PART": "IRLZ34",
     "board_name": "Power MOSFET Chip",
     "rev": "1.0"
   }
