@@ -32,6 +32,16 @@ with `ngspice` to understand the sensitivity of the logic signal to input curren
 phototransistor and the variable resistance of the potentiometer used as an in-field sensitivity
 calibration input.
 
+A third PCB (`mosfet-chip`) is a mini-PCB to connect two circuits via screw-terminals, switchable by
+an onboard `IRLZ24` NMOS FET transistor activated by a separate gate pin. 16 of these are mounted on
+the power module by #0 machine screws.
+
+I originally used this
+[High-Power Dual MOSFET Switch Module](https://protosupplies.com/product/high-power-dual-mosfet-switch-module/)
+but found the screw terminals included were too unreliable. This PCB is footprint-compatible and
+uses larger-gauge, higher-quality terminal blocks by Phoenix Contact. The `mosfet-chip/` directory
+includes a panelized (2x3) layout suitable for PCBA and the BOM to enable assembly at JLCPCB.
+
 Fabrication
 -----------
 
@@ -70,4 +80,8 @@ the logic module directory.
 
 The power module is THT-only and intended for hand-soldered assembly. (A single 7343-metric / 2917
 / "size D" tantalum SMD capacitor for the 5V0 regulator can also be hand-soldered.)
+
+The mosfet chips are a mixed SMD/THT assembly and were assembled by JLCPCB. BOM includes SPNs
+for JLC's preferred supplier. Individual mini-PCBs are too small to assemble so gerbers are supplied
+for a panelized 2x3 PCB layout, made with the Panelizer plugin for KiCAD 6.
 
