@@ -82,6 +82,6 @@ The power module is THT-only and intended for hand-soldered assembly. (A single 
 / "size D" tantalum SMD capacitor for the 5V0 regulator can also be hand-soldered.)
 
 The mosfet chips are a mixed SMD/THT assembly and were assembled by JLCPCB. BOM includes SPNs
-for JLC's preferred supplier. Individual mini-PCBs are too small to assemble so gerbers are supplied
-for a panelized 2x3 PCB layout, made with the Panelizer plugin for KiCAD 6.
+for JLC's preferred supplier. Individual mini-PCBs are too small for automated SMD assembly,
+so gerbers are supplied for a panelized 2x3 PCB layout, made with the Panelizer plugin for KiCAD 6.
 
