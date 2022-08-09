@@ -477,7 +477,7 @@
     ]
   ],
   "text_variables": {
-    "RELEASE_DATE": "2022-05-08",
-    "REV": "1.0"
+    "RELEASE_DATE": "2022-XX-XX",
+    "REV": "1.1"
   }
 }
